@@ -44,7 +44,7 @@ sentencepiece
 soupsieve
 sympy
 threadpoolctl
-tokenizers
+tokenizers==0.11.2
 torch
 torchvision
 tqdm
