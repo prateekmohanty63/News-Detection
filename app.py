@@ -5,6 +5,14 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 
 
+
+
+# Endpoint to get user by ID
+@app.route('/', methods=['GET'])
+def get_user():
+    return jsonify("Hello")
+    
+
 @app.route('/', methods=['POST'])
 def getQuery():
   
